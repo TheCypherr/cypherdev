@@ -1,0 +1,36 @@
+.right-side-resume {
+  flex: 3;
+  overflow-y: auto;
+  margin-left: 100px;
+  height: 100vh;
+  font-weight: lighter;
+}
+
+.inner-right-resume {
+  padding-top: 50px;
+  position: relative;
+}
+
+.download-cv {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+}
+.download-cv button {
+  width: 150px;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  background-color: var(--accent-color);
+  color: #fff;
+  font-size: 1rem;
+}
+.download-cv button:hover {
+  transform: scale(0.9);
+}
+
+.resume {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}

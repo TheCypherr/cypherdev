@@ -1,0 +1,62 @@
+.right-side-service {
+  flex: 3;
+  overflow-y: auto;
+  margin-left: 100px;
+  height: 100vh;
+  font-weight: lighter;
+}
+.inner-right-service {
+  margin-bottom: 50px;
+}
+
+.inner-right-service h1 {
+  padding-top: 50px;
+  font-size: 2.2rem;
+  line-height: 10px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.inner-right-service p {
+  width: 600px;
+  font-size: 1.2rem;
+}
+
+.inner-right-service span {
+  font-weight: 600;
+}
+
+/* Portrait View Responsiveness */
+@media (max-width: 600px) {
+  .right-side-service {
+    flex: 0;
+    margin-left: 0;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
+  .inner-right-service h1 {
+    font-size: 1.5rem;
+    line-height: 10px;
+    font-weight: 600;
+    padding-bottom: 15px;
+  }
+
+  .inner-right-service h2 {
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+
+  .inner-right-service p {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
