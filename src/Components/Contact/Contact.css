@@ -193,7 +193,60 @@ textarea.input2 {
 }
 
 /* Landscape and iPad View */
-@media (min-width: 750px) and (max-width: 900px) {
+@media (min-width: 601px) and (max-width: 750px) {
+  /* Right Side */
+  .right-side-contact {
+    flex: 2;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-y: auto;
+    flex-shrink: 0;
+  }
+
+  .inner-right-contact h1 {
+    padding-top: 20px;
+    font-size: 2rem;
+    line-height: 10px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    text-align: left;
+  }
+
+  form {
+    padding: 10px 0px 20px 30px;
+    margin-bottom: 50px;
+    background-color: #ffffff0a;
+    width: 350px;
+    height: 100%;
+    font-size: 1rem;
+  }
+
+  input.input1 {
+    font-size: 0.8rem;
+    width: 200px;
+    padding: 5px;
+    background-color: #ffffff6a;
+  }
+
+  textarea.input2 {
+    font-size: 1rem;
+    width: 300px;
+    height: 80px;
+    color: #fff;
+    background-color: #ffffff6a;
+  }
+
+  .btn {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-right: 35px;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1115px) {
   /* Right Side */
   .right-side-contact {
     flex: 2;
