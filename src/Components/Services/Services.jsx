@@ -270,24 +270,6 @@ const Services = () => {
               and communicate with my clients to ensure that your vision is
               realized while keeping communication transparent.
             </p>
-
-            <br />
-            <h2>Why you should hire me.</h2>
-            <p>
-              Well, I can't help but sell myself a little bit more and that's
-              because I prioritize your needs and goals, ensuring that every
-              project is tailored to your vision. Your success is my success
-              really.
-              <br />
-              <p>
-                My background in Mathematics enhances my analytical skills which
-                allows me tackle complex challenges effectively. I am always
-                very eager to seek and expand my knowledge and skills. This zeal
-                positively impact my work, as it helps me stay updated on
-                industry trends which also enables me provide you with the best
-                solutions.
-              </p>
-            </p>
           </div>
         </div>
       </div>

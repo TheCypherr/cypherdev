@@ -34,3 +34,64 @@
   margin-top: 20px;
   margin-bottom: 30px;
 }
+
+/* Portrait View Responsiveness */
+@media (max-width: 600px) {
+  .right-side-resume {
+    flex: 0;
+    margin-left: 0;
+    padding: 20px;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 53%;
+    left: 53%;
+    transform: translate(-53%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    /* background-color: #fff; */
+  }
+
+  .inner-right-resume {
+    padding: 40px;
+    margin-top: -50px;
+  }
+
+  .resume {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .i-frame {
+    width: 100%;
+  }
+}
+
+/* Landscape and iPad View */
+@media (min-width: 750px) and (max-width: 900px) {
+  /* Right Side */
+  .right-side-resume {
+    flex: 2;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-y: auto;
+    flex-shrink: 0;
+  }
+
+  .inner-right-resume h1 {
+    padding-top: 20px;
+    font-size: 2rem;
+    line-height: 10px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    text-align: left;
+  }
+
+  .i-frame {
+    width: 100%;
+  }
+}

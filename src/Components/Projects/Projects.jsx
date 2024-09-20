@@ -268,44 +268,23 @@ const Projects = () => {
                 </div>
                 <div className="texts">
                   <h2>CypherDev Portfolio</h2>
-                  <p onClick={() => toggleViewMore("port1")}>
-                    More Details <FaChevronCircleRight />
+                  <p>
+                    Portfolio Design and Build inspired by the "fear of being
+                    average."
                   </p>
-                </div>
-
-                {/* {viewMore.port1 && <div className="back-drop"></div>} */}
-                {viewMore.port1 && (
-                  <div className="one-side-overlay">
-                    <div
-                      className="close-btn"
-                      onClick={() => toggleViewMore("port1")}
-                    >
-                      <FaTimes />
-                    </div>
-                    <div className="img-project-overlay">
-                      <img src="/portfolio.png" alt="project3" />
-                    </div>
-                    <div className="texts-overlay">
-                      <h3>CypherDev Portfolio</h3>
-                      <p>
-                        Portfolio Design and Build inspired by the "fear of
-                        being average."
-                      </p>
-                    </div>
-                    <div className="links">
-                      <a href="">
-                        <FaLink size={17} />
-                      </a>
-                      <a href="">
-                        <FaGithub size={20} />
-                      </a>
-                    </div>
-                    <div className="tools">
-                      <p>Technologies - React, Javascript, CSS</p>
-                      <p>Category - Frontend</p>
-                    </div>
+                  <div className="links">
+                    <a href="">
+                      <FaLink size={17} />
+                    </a>
+                    <a href="">
+                      <FaGithub size={20} />
+                    </a>
                   </div>
-                )}
+                  <div className="tools">
+                    <p>Technologies - React, Javascript, CSS</p>
+                    <p>Category - Frontend</p>
+                  </div>
+                </div>
               </div>
 
               <div className="one-side">
@@ -314,44 +293,23 @@ const Projects = () => {
                 </div>
                 <div className="texts">
                   <h2>WIBA "Online Learning"</h2>
-                  <p onClick={() => toggleViewMore("port2")}>
-                    More Details <FaChevronCircleRight />
+                  <p>
+                    WIBA will be providing lasting solutions to students and
+                    help them get prepared and pass exams.
                   </p>
-                </div>
-                {viewMore.port2 && <div className="back-drop"></div>}
-                {viewMore.port2 && (
-                  <div className="one-side-overlay">
-                    <div
-                      className="close-btn"
-                      onClick={() => toggleViewMore("port2")}
-                    >
-                      <FaTimes />
-                    </div>
-                    <div className="img-project-overlay">
-                      <img src="/port1.png" alt="port1" />
-                    </div>
-                    <div className="texts-overlay">
-                      <h3>WIBA "Online Learning"</h3>
-                      <p>
-                        WIBA is an ongoing projects that I'll keep adding new
-                        update to as it'll be providing lasting solutions to
-                        students and help them get prepared and pass exams.
-                      </p>
-                    </div>
-                    <div className="links">
-                      <a href="https://wiba.vercel.app">
-                        <FaLink size={17} />
-                      </a>
-                      <a href="#">
-                        <FaGithub size={20} />
-                      </a>
-                    </div>
-                    <div className="tools">
-                      <p>Technologies - React, Javascript, CSS3, Firebase</p>
-                      <p>Category - Ongoing Fullstack Project</p>
-                    </div>
+                  <div className="links">
+                    <a href="https://wiba.vercel.app">
+                      <FaLink size={17} />
+                    </a>
+                    <a href="#">
+                      <FaGithub size={20} />
+                    </a>
                   </div>
-                )}
+                  <div className="tools">
+                    <p>Technologies - React, Javascript, CSS3, Firebase</p>
+                    <p>Category - Ongoing Fullstack Project</p>
+                  </div>
+                </div>
               </div>
 
               <div className="one-side">
@@ -360,47 +318,23 @@ const Projects = () => {
                 </div>
                 <div className="texts">
                   <h2>Item7 Restaurant</h2>
-                  <p onClick={() => toggleViewMore("port3")}>
-                    More Details <FaChevronCircleRight />
+                  <p>
+                    "Item7" is developed to enable customers make food orders
+                    from the comfort of their home without breaking a sweat.
                   </p>
-                </div>
-
-                {viewMore.port3 && <div className="back-drop"></div>}
-                {viewMore.port3 && (
-                  <div className="one-side-overlay">
-                    <div
-                      className="close-btn"
-                      onClick={() => toggleViewMore("port3")}
-                    >
-                      <FaTimes />
-                    </div>
-                    <div className="img-project-overlay">
-                      <img src="/port2.png" alt="port2" />
-                    </div>
-                    <div className="texts-overlay">
-                      <h3>WIBA "Online Learning"</h3>
-                      <p>
-                        "Item7" is also an ongoing web-app project I designed &
-                        developed to enable customers make food orders from the
-                        comfort of their home without breaking a sweat. It
-                        currently works seamlessly accross all platforms and
-                        mobile screens.
-                      </p>
-                    </div>
-                    <div className="links">
-                      <a href="https://item7-com.vercel.app">
-                        <FaLink size={17} />
-                      </a>
-                      <a href="#">
-                        <FaGithub size={20} />
-                      </a>
-                    </div>
-                    <div className="tools">
-                      <p>Technologies - React, Javascript, CSS3, Firebase</p>
-                      <p>Category - Ongoing Fullstack Project</p>
-                    </div>
+                  <div className="links">
+                    <a href="https://item7-com.vercel.app">
+                      <FaLink size={17} />
+                    </a>
+                    <a href="#">
+                      <FaGithub size={20} />
+                    </a>
                   </div>
-                )}
+                  <div className="tools">
+                    <p>Technologies - React, Javascript, CSS3, Firebase</p>
+                    <p>Category - Ongoing Fullstack Project</p>
+                  </div>
+                </div>
               </div>
 
               <div className="one-side">
@@ -409,47 +343,23 @@ const Projects = () => {
                 </div>
                 <div className="texts">
                   <h2>Photography Portfolio</h2>
-                  <p onClick={() => toggleViewMore("port4")}>
-                    More Details <FaChevronCircleRight />
+                  <p>
+                    Apart from being a developer, I'm also a "Creative Mobile
+                    Photographer". You can think of it as a "pocket gallery"
                   </p>
-                </div>
-
-                {viewMore.port4 && <div className="back-drop"></div>}
-                {viewMore.port4 && (
-                  <div className="one-side-overlay">
-                    <div
-                      className="close-btn"
-                      onClick={() => toggleViewMore("port4")}
-                    >
-                      <FaTimes />
-                    </div>
-                    <div className="img-project-overlay">
-                      <img src="/port3.png" alt="port3" />
-                    </div>
-                    <div className="texts-overlay">
-                      <h3>Photography Portfolio</h3>
-                      <p>
-                        Apart from being a developer, I'm also a "Creative
-                        Mobile Photographer" and this project showcase some of
-                        the amazing and cool pictures I took. You can think of
-                        it as a "pocket gallery" that works accross all mobile
-                        devices.
-                      </p>
-                    </div>
-                    <div className="links">
-                      <a href="https://shotsbycypher.vercel.app/">
-                        <FaLink size={17} />
-                      </a>
-                      <a href="https://github.com/TheCypherr/cyphershots">
-                        <FaGithub size={20} />
-                      </a>
-                    </div>
-                    <div className="tools">
-                      <p>Technologies - React, Javascript, CSS3</p>
-                      <p>Category - Frontend</p>
-                    </div>
+                  <div className="links">
+                    <a href="https://shotsbycypher.vercel.app/">
+                      <FaLink size={17} />
+                    </a>
+                    <a href="https://github.com/TheCypherr/cyphershots">
+                      <FaGithub size={20} />
+                    </a>
                   </div>
-                )}
+                  <div className="tools">
+                    <p>Technologies - React, Javascript, CSS3</p>
+                    <p>Category - Frontend</p>
+                  </div>
+                </div>
               </div>
 
               <div className="one-side">
@@ -458,46 +368,24 @@ const Projects = () => {
                 </div>
                 <div className="texts">
                   <h2>NFT Landing Page</h2>
-                  <p onClick={() => toggleViewMore("port5")}>
-                    More Details <FaChevronCircleRight />
+                  <p>
+                    The initial goal of this project was to build a Web3 landing
+                    page but now it's about NFT's. The design prioritizes user
+                    experience across all devices.
                   </p>
-                </div>
-
-                {viewMore.port5 && <div className="back-drop"></div>}
-                {viewMore.port5 && (
-                  <div className="one-side-overlay">
-                    <div
-                      className="close-btn"
-                      onClick={() => toggleViewMore("port5")}
-                    >
-                      <FaTimes />
-                    </div>
-                    <div className="img-project-overlay">
-                      <img src="/port4.png" alt="port4" />
-                    </div>
-                    <div className="texts-overlay">
-                      <h3>NFT Landing Page</h3>
-                      <p>
-                        The initial goal of this project was to build a Web3
-                        landing page showcasing decentralized applications but
-                        now it's about NFT's. The design prioritizes user
-                        experience across all devices.
-                      </p>
-                    </div>
-                    <div className="links">
-                      <a href="https://thecypherr.github.io/CypherWallet/">
-                        <FaLink size={17} />
-                      </a>
-                      <a href="https://github.com/TheCypherr/CypherWallet">
-                        <FaGithub size={20} />
-                      </a>
-                    </div>
-                    <div className="tools">
-                      <p>Technologies - HTML, Javascript, CSS3</p>
-                      <p>Category - Frontend</p>
-                    </div>
+                  <div className="links">
+                    <a href="https://thecypherr.github.io/CypherWallet/">
+                      <FaLink size={17} />
+                    </a>
+                    <a href="https://github.com/TheCypherr/CypherWallet">
+                      <FaGithub size={20} />
+                    </a>
                   </div>
-                )}
+                  <div className="tools">
+                    <p>Technologies - HTML, Javascript, CSS3</p>
+                    <p>Category - Frontend</p>
+                  </div>
+                </div>
               </div>
 
               <div className="one-side">
@@ -506,48 +394,24 @@ const Projects = () => {
                 </div>
                 <div className="texts">
                   <h2>Car Quiz App</h2>
-                  <p onClick={() => toggleViewMore("port6")}>
-                    More Details <FaChevronCircleRight />
+                  <p>
+                    This is a quiz app that'll test your knowledge about cars
+                    too. It uses local storage to store and get user data after
+                    a user completes a quiz
                   </p>
-                </div>
-
-                {viewMore.port6 && <div className="back-drop"></div>}
-                {viewMore.port6 && (
-                  <div className="one-side-overlay">
-                    <div
-                      className="close-btn"
-                      onClick={() => toggleViewMore("port6")}
-                    >
-                      <FaTimes />
-                    </div>
-                    <div className="img-project-overlay">
-                      <img src="/port5.png" alt="port5" />
-                    </div>
-                    <div className="texts-overlay">
-                      <h3>Car Quiz App</h3>
-                      <p>
-                        This is a quiz app that tested my JavaScript knowledge
-                        and it'll test your knowledge about cars too. It uses
-                        local storage to store and get user data after a user
-                        completes a particular quiz type. It works smoothly
-                        accross different mobile devices and ensure a user
-                        friendly experience.
-                      </p>
-                    </div>
-                    <div className="links">
-                      <a href="https://thecypherr.github.io/CarQuiz/">
-                        <FaLink size={17} />
-                      </a>
-                      <a href="https://github.com/TheCypherr/CarQuiz">
-                        <FaGithub size={20} />
-                      </a>
-                    </div>
-                    <div className="tools">
-                      <p>Technologies - HTML, Javascript, CSS3</p>
-                      <p>Category - Frontend</p>
-                    </div>
+                  <div className="links">
+                    <a href="https://thecypherr.github.io/CarQuiz/">
+                      <FaLink size={17} />
+                    </a>
+                    <a href="https://github.com/TheCypherr/CarQuiz">
+                      <FaGithub size={20} />
+                    </a>
                   </div>
-                )}
+                  <div className="tools">
+                    <p>Technologies - HTML, Javascript, CSS3</p>
+                    <p>Category - Frontend</p>
+                  </div>
+                </div>
               </div>
 
               <div className="one-side">
@@ -556,45 +420,23 @@ const Projects = () => {
                 </div>
                 <div className="texts">
                   <h2>Cee-Tee Shopping Hub</h2>
-                  <p onClick={() => toggleViewMore("port7")}>
-                    More Details <FaChevronCircleRight />
+                  <p>
+                    Simple shopping website built with HTML, CSS & JavaScript.
+                    Completely responsive accross all mobile devices.
                   </p>
-                </div>
-
-                {viewMore.port7 && <div className="back-drop"></div>}
-                {viewMore.port7 && (
-                  <div className="one-side-overlay">
-                    <div
-                      className="close-btn"
-                      onClick={() => toggleViewMore("port7")}
-                    >
-                      <FaTimes />
-                    </div>
-                    <div className="img-project-overlay">
-                      <img src="/port6.png" alt="port6" />
-                    </div>
-                    <div className="texts-overlay">
-                      <h3>Cee-Tee Shopping Hub</h3>
-                      <p>
-                        Simple shopping website built with HTML, CSS &
-                        JavaScript. Completely responsive accross all mobile
-                        devices.
-                      </p>
-                    </div>
-                    <div className="links">
-                      <a href="https://thecypherr.github.io/cypher-ecommerce-webtest/">
-                        <FaLink size={17} />
-                      </a>
-                      <a href="https://github.com/TheCypherr/cypher-ecommerce-webtest">
-                        <FaGithub size={20} />
-                      </a>
-                    </div>
-                    <div className="tools">
-                      <p>Technologies - HTML, Javascript, CSS3</p>
-                      <p>Category - Frontend</p>
-                    </div>
+                  <div className="links">
+                    <a href="https://thecypherr.github.io/cypher-ecommerce-webtest/">
+                      <FaLink size={17} />
+                    </a>
+                    <a href="https://github.com/TheCypherr/cypher-ecommerce-webtest">
+                      <FaGithub size={20} />
+                    </a>
                   </div>
-                )}
+                  <div className="tools">
+                    <p>Technologies - HTML, Javascript, CSS3</p>
+                    <p>Category - Frontend</p>
+                  </div>
+                </div>
               </div>
 
               <div className="one-side">
@@ -603,45 +445,24 @@ const Projects = () => {
                 </div>
                 <div className="texts">
                   <h2>NGO for African Kids</h2>
-                  <p onClick={() => toggleViewMore("port8")}>
-                    More Details <FaChevronCircleRight />
+                  <p>
+                    A simple landing page for donating and helping some African
+                    kids get proper Education. It's a random design I stumbled
+                    accross on Instagram.
                   </p>
-                </div>
-
-                {viewMore.port8 && <div className="back-drop"></div>}
-                {viewMore.port8 && (
-                  <div className="one-side-overlay">
-                    <div
-                      className="close-btn"
-                      onClick={() => toggleViewMore("port8")}
-                    >
-                      <FaTimes />
-                    </div>
-                    <div className="img-project-overlay">
-                      <img src="/ngo.png" alt="ngo" />
-                    </div>
-                    <div className="texts-overlay">
-                      <h3>NGO for African Kids</h3>
-                      <p>
-                        A simple landing page for donating and helping some
-                        African kids get proper Education. It's a random design
-                        I stumbled accross on Instagram.
-                      </p>
-                    </div>
-                    <div className="links">
-                      <a href="https://thecypherr.github.io/cypher-charity-webtest/">
-                        <FaLink size={17} />
-                      </a>
-                      <a href="https://github.com/TheCypherr/cypher-charity-webtest">
-                        <FaGithub size={20} />
-                      </a>
-                    </div>
-                    <div className="tools">
-                      <p>Technologies - HTML, Javascript, CSS3</p>
-                      <p>Category - Frontend</p>
-                    </div>
+                  <div className="links">
+                    <a href="https://thecypherr.github.io/cypher-charity-webtest/">
+                      <FaLink size={17} />
+                    </a>
+                    <a href="https://github.com/TheCypherr/cypher-charity-webtest">
+                      <FaGithub size={20} />
+                    </a>
                   </div>
-                )}
+                  <div className="tools">
+                    <p>Technologies - HTML, Javascript, CSS3</p>
+                    <p>Category - Frontend</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

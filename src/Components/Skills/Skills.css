@@ -53,3 +53,105 @@
 .inner-right-skills svg {
   padding-top: 5px;
 }
+
+/* Portrait View Responsiveness */
+@media (max-width: 600px) {
+  .right-side-skills {
+    flex: 0;
+    margin-left: 0;
+    padding: 20px;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 53%;
+    left: 40%;
+    transform: translate(-53%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    /* background-color: #fff; */
+  }
+
+  .inner-right-skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inner-right-skills {
+    padding: 40px;
+  }
+
+  .inner-right-skills h1 {
+    font-size: 2rem;
+    line-height: 10px;
+    font-weight: 600;
+    margin-top: -80px;
+    padding-bottom: 15px;
+  }
+
+  .inner-right-skills h2 {
+    font-size: 1.3rem;
+    margin-top: 10px;
+  }
+
+  .visible-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .visible-skills {
+    margin: 10px auto;
+  }
+
+  .img-contain {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+}
+
+/* Landscape and iPad View */
+@media (min-width: 750px) and (max-width: 900px) {
+  /* Right Side */
+  .right-side-skills {
+    flex: 2;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-y: auto;
+    flex-shrink: 0;
+  }
+
+  .inner-right-skills h1 {
+    padding-top: 20px;
+    font-size: 2rem;
+    line-height: 10px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    text-align: left;
+  }
+
+  .inner-right-skills h2 {
+    font-size: 1.3rem;
+    margin-top: 10px;
+  }
+
+  .visible-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .visible-skills {
+    margin: 10px auto;
+  }
+
+  .img-contain {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+}

@@ -263,7 +263,6 @@ const AboutMe = () => {
               accomplish new heights as building solutions has always been my
               priority.
             </p>
-            <br />
             <h2>How I get the Job done?</h2>
             <p>
               As a <span>frontend developer,</span> my process is designed to

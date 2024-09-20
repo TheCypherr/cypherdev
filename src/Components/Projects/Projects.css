@@ -16,9 +16,9 @@
 
 .project-div1 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(2, 0fr);
   margin-top: 30px;
+  gap: 50px;
 }
 
 .one-side {
@@ -29,6 +29,10 @@
   align-items: center;
   width: 300px;
   margin-bottom: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px var(--text-color);
 }
 
 .img-project {
@@ -61,88 +65,8 @@
   margin-left: 5px;
 }
 
-/* overlay styling  */
-.back-drop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 1;
-  visibility: visible;
-  z-index: 5;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.one-side-overlay {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  max-width: 400px;
-  position: absolute;
-  top: 30%;
-  left: 65%;
-  transform: translate(-50%, -30%);
-  border-radius: 10px;
-  background-color: var(--bg-color);
-  box-shadow: 0 5px 5px #fff;
-  z-index: 10;
-  padding: 20px;
-}
-
-.img-project-overlay {
-  width: 100%;
-  height: 150px;
-  overflow: hidden;
-  margin-bottom: 15px;
-}
-
-.img-project-overlay img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.close-btn {
-  align-self: flex-end;
-  cursor: pointer;
-  color: #ff3d3d;
-  font-size: 1.2rem;
-}
-
-.texts-overlay {
-  width: 100%;
-  overflow: hidden;
-  text-align: left;
-}
-.texts-overlay h3 {
-  line-height: 1px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  font-size: 1.1rem;
-}
-.texts-overlay p {
-  font-size: 0.9rem;
-}
-
-.tools {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
-.tools p {
-  margin: 0;
-  /* padding: 10px; */
-  margin-bottom: 10px;
-  /* border: 2px solid #4343fb; */
-  border-radius: 10px;
-  width: 100%;
-  text-align: left;
-  font-size: 0.8rem;
+.tools :first-child {
+  margin-bottom: -15px;
 }
 
 .links {
@@ -164,55 +88,50 @@
     flex: 0;
     margin-left: 0;
     padding: 20px;
-    width: 300px;
+    width: 100%;
+    height: 80%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 53%;
+    left: 53%;
+    transform: translate(-53%, -50%);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: left;
+    /* background-color: #fff; */
+  }
+
+  .inner-right-projects {
+    padding: 40px;
   }
 
   .inner-right-projects h1 {
     font-size: 1.5rem;
     line-height: 10px;
     font-weight: 600;
+    margin-top: -105px;
     padding-bottom: 15px;
   }
 
   .texts h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     line-height: 7px;
+  }
+
+  .tools {
+    font-size: 0.9rem;
   }
 
   .project-div1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
-    margin-top: 30px;
     height: 100vh;
   }
 
-  .one-side-overlay {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    max-width: 300px;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 10px;
-    background-color: var(--bg-color);
-    box-shadow: 0 3px 5px #fff;
-    z-index: 10;
-    padding: 20px;
+  .one-side {
+    margin-left: 0px;
   }
 
   .back-drop {
@@ -226,5 +145,35 @@
     visibility: visible;
     z-index: 5;
     transition: opacity 0.3s ease-in-out;
+  }
+}
+
+/* Landscape and iPad View */
+@media (min-width: 750px) and (max-width: 900px) {
+  /* Right Side */
+  .right-side-projects {
+    flex: 2;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-y: auto;
+    flex-shrink: 0;
+  }
+
+  .inner-right-projects h1 {
+    padding-top: 20px;
+    font-size: 2rem;
+    line-height: 10px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    text-align: left;
+  }
+
+  .project-div1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    height: 100vh;
   }
 }
