@@ -38,6 +38,9 @@ body {
   justify-content: center;
   text-align: center;
 }
+.visible-skills p {
+  font-weight: normal;
+}
 
 .img-contain {
   width: 100px;

@@ -63,6 +63,7 @@ body {
 .texts p {
   align-items: center;
   cursor: pointer;
+  font-weight: normal;
 }
 .texts svg {
   margin-bottom: -3px;
