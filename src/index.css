@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
   --tw-text-opacity: 1;
   --tw-bg-opacity: 1;
@@ -6,8 +8,8 @@
   --text-color: rgb(243 244 246 / var(--tw-text-opacity));
   --border-text: #272829;
   --accent-color: #149ddd;
-  font-family: "Raleway", sans-serif;
   --new-color: #22d3ee;
+  font-family: "Raleway", sans-serif;
   scroll-behavior: smooth;
 }
 body {
