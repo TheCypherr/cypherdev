@@ -11,7 +11,7 @@
   scroll-behavior: smooth;
 }
 body {
-  font-family: var(--port-font);
+  font-family: "Raleway", sans-serif;
   background-color: var(--new-bg);
   color: var(--text-color);
   margin: 0;

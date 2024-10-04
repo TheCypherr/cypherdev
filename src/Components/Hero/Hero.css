@@ -1,14 +1,14 @@
 body {
   margin: 0;
   padding: 0px;
-  font-family: var(--port-font);
+  font-family: "Raleway", sans-serif;
   font-size: 1rem;
   font-weight: 500;
 }
 
 .hero-wrapper {
   /* padding: 15px 20px 10px 20px; */
-  font-family: var(--port-font);
+  font-family: "Raleway", sans-serif;
   height: 100vh;
 }
 
