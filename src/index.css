@@ -6,7 +6,7 @@
   --text-color: rgb(243 244 246 / var(--tw-text-opacity));
   --border-text: #272829;
   --accent-color: #149ddd;
-  --port-font: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
   --new-color: #22d3ee;
   scroll-behavior: smooth;
 }

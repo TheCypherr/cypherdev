@@ -1,6 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
 }
+
 .right-side-projects {
   flex: 3;
   overflow-y: auto;
