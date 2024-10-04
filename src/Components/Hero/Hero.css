@@ -155,6 +155,7 @@ body {
 
 .sequence {
   font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .inner-right p {
