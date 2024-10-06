@@ -274,6 +274,10 @@ const Contact = () => {
                 <input type="text" name="name" className="input1" />
               </div>
               <div className="input-one">
+                <p>Email</p>
+                <input type="text" name="email" className="input1" />
+              </div>
+              <div className="input-one">
                 <p>Message</p>
                 <textarea
                   type="text"
