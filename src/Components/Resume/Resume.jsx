@@ -241,7 +241,10 @@ const Resume = () => {
         <div className="right-side-resume">
           <div className="inner-right-resume">
             <div className="download-cv">
-              <a href="/resume.pdf" download="Abdurraheem_Pelumi_Resume.pdf">
+              <a
+                href="/resume.pdf"
+                download="Abdurraheem Pelumi (Frontend Developer).pdf"
+              >
                 <button>Download CV</button>
               </a>
             </div>

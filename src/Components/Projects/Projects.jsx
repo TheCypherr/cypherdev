@@ -294,11 +294,13 @@ const Projects = () => {
                 <div className="texts">
                   <h2>WIBA "Online Learning"</h2>
                   <p>
-                    WIBA will be providing lasting solutions to students and
-                    help them get prepared and pass exams.
+                    WIBA is an online learning website aimed at providing
+                    lasting solution to students particularly JAMB students
+                    across Nigeria to help them prepare and excel in their
+                    exams.
                   </p>
                   <div className="links">
-                    <a href="https://wiba.vercel.app">
+                    <a href="https://www.wiba.com.ng">
                       <FaLink size={17} />
                     </a>
                     <a href="#">
@@ -307,7 +309,7 @@ const Projects = () => {
                   </div>
                   <div className="tools">
                     <p>Technologies - React, Javascript, CSS3, Firebase</p>
-                    <p>Category - Ongoing Fullstack Project</p>
+                    <p>Category - Completed ✅</p>
                   </div>
                 </div>
               </div>
