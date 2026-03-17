@@ -300,7 +300,11 @@ const Projects = () => {
                     exams.
                   </p>
                   <div className="links">
+<<<<<<< HEAD
                     <a href="https://www.wiba.com.ng">
+=======
+                    <a href="https://wiba.vercel.app/">
+>>>>>>> 6e27939 (initial commit)
                       <FaLink size={17} />
                     </a>
                     <a href="#">
